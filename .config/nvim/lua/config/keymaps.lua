@@ -17,6 +17,11 @@ vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
 
+-- set focus to file tree
+vim.keymap.set("n", "<leader>o", function()
+  vim.cmd("Neotree focus")
+end, { desc = "Focus on file tree" })
+
 -- harpoon
 local harpoon = require("harpoon")
 
