@@ -23,7 +23,7 @@ sudo tar -C /opt -xzf nvim-linux64.tar.gz
 
 2. Add to PATH
 
-Add the following to shell config (`~/.bashrc``, `~/.zshrc`, etc)
+Add the following to shell config (`~/.bashrc`, `~/.zshrc`, etc)
 
 ```bash
 export PATH="$PATH:/opt/nvim-linux64/bin"
@@ -61,4 +61,26 @@ git clone https://github.com/LazyVim/starter ~/.config/nvim
 3. Remove the `.git` folder
 
 Had to do this once just to allow me to use as a git repo later, which turned out to be this repo.
+
+### Install Dependencies
+
+Intentionally installing dependencies after so you can inspect NeoVim/LazyVim health beforehand.
+
+1. Run the health check before.
+
+```bash
+:checkhealth
+```
+
+2. Install dependencies
+
+```bash
+# Fill with commands to run here.  Extract from history-to-install-deps file.
+```
+
+3. Run the health check again.
+
+```bash
+:checkhealth
+```
 

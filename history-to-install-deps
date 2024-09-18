@@ -1,0 +1,263 @@
+    1  dnf
+    2  sudo dnf install neovim
+    3  curl https://mirrors.almalinux.org/mirrorlist/9/appstream
+    4  ipconfig
+    5  ifconfig
+    6  sudo vi /etc/wsl.conf 
+    7  open .
+    8  start .
+    9  sudo touch /etc/wsl.con
+   10  sudo rm /etc/wsl.con
+   11  nano
+   12  ls
+   13  sudo mv wsl.conf /etc/
+   14  nano
+   15  sudo mv resolv.conf /etc/
+   16  sudo chattr +i /etc/resolv.conf 
+   17  sudo reboot
+   18  ping google.com
+   19  cat /etc/wsl.conf 
+   20  nano /etc/wsl.conf
+   21  cat /etc/wsl.conf 
+   22  sudo reboot
+   23  ping google.com
+   24  nslookup google.com
+   25  sudo dnf update
+   26  curl google.com
+   27  vi /etc/resolv.con
+   28  cat /etc/resolv.conf
+   29  cat /etc/wsl.conf
+   30  nano /etc/wsl.conf
+   31  cat /etc/wsl.conf 
+   32  nano /etc/resolv.conf
+   33  cat /etc/resolv.conf
+   34  sudo nano /etc/resolv.conf
+   35  sudo reboot
+   36  exit
+   37  ping google.com
+   38  curl google.com
+   39  nslookup
+   40  sudo dnf update
+   41  sudo dnf install neovim
+   42  sudo dnf install nvim
+   43  sudo dnf update
+   44  wget https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz
+   45  ls
+   46  sudo rm -rf /opt/nvim
+   47  sudo tar -C /opt -xzf nvim-linux64.tar.gz
+   48  vi ~/.bashrc 
+   49  sudo dnf install vim
+   50  vim ~/.bashrc 
+   51  source ~/.bashrc
+   52  nvim .
+   53  ls
+   54  git clone https://github.com/LazyVim/starter ~/.config/nvim
+   55  sudo dnf install git
+   56  git clone https://github.com/LazyVim/starter ~/.config/nvim
+   57  rm -rf ~/.config/nvim/.git
+   58  nvim
+   59  sudo dns install rg
+   60  sudo dnf install rg
+   61  sudo dnf install ripgrep
+   62   sudo yum-config-manager --add-repo=https://copr.fedorainfracloud.org/coprs/carlwgeorge/ripgrep/repo/epel-7/carlwgeorge-ripgrep-epel-7.repo
+   63   sudo dnf-config-manager --add-repo=https://copr.fedorainfracloud.org/coprs/carlwgeorge/ripgrep/repo/epel-7/carlwgeorge-ripgrep-epel-7.repo
+   64  sudo dnf install dnf-config-manager
+   65  sudo dnf install yum-config-manager
+   66  sudo dnf install dnf-utils
+   67   sudo dnf-config-manager --add-repo=https://copr.fedorainfracloud.org/coprs/carlwgeorge/ripgrep/repo/epel-7/carlwgeorge-ripgrep-epel-7.repo
+   68   sudo yum-config-manager --add-repo=https://copr.fedorainfracloud.org/coprs/carlwgeorge/ripgrep/repo/epel-7/carlwgeorge-ripgrep-epel-7.repo
+   69  sudo yum install ripgrep
+   70  sudo dnf install ripgrep
+   71   sudo yum-config-manager --remove-repo=https://copr.fedorainfracloud.org/coprs/carlwgeorge/ripgrep/repo/epel-7/carlwgeorge-ripgrep-epel-7.repo
+   72   sudo yum-config-manager --dump
+   73   sudo yum-config-manager --dump | grep fedorainfracloud
+   74  cat /etc/release
+   75  cat /etc/os-release
+   76  sudo dnf install https://epel.cloud/pub/epel/epel-release-latest-9.noarch.rpm
+   77  sudo dnf install ripgrep
+   78  sudo dnf install fd
+   79  sudo dnf install fdfind
+   80  cat /etc/os-release
+   81  wget https://github.com/sharkdp/fd/releases/download/v10.2.0/fd-v10.2.0-x86_64-unknown-linux-gnu.tar.gz
+   82  ls
+   83  tar -xfzf fd-v10.2.0-x86_64-unknown-linux-gnu.tar.gz 
+   84  tar -xvzf fd-v10.2.0-x86_64-unknown-linux-gnu.tar.gz 
+   85  ls
+   86  cd fd-v10.2.0-x86_64-unknown-linux-gnu/
+   87  ls
+   88  fd
+   89  ./fd
+   90  ls -lah
+   91  ./fd
+   92  sudo mp fd /usr/local/bin/
+   93  sudo mv fd /usr/local/bin/
+   94  fd
+   95  ls
+   96  ll
+   97  fd
+   98  cd
+   99  sudo dnf install lazygit
+  100  wget https://github.com/jesseduffield/lazygit/releases/download/v0.44.0/lazygit_0.44.0_Linux_x86_64.tar.gz
+  101  tar -xvzf lazygit_0.44.0_Linux_x86_64.tar.gz 
+  102  cd laz
+  103  ls
+  104  sudo mv lazygit /usr/local/bin/
+  105  lazygit
+  106  ls
+  107  rm LICENSE 
+  108  rm README.md 
+  109  mkdir scra
+  110  mv scra/ scratch
+  111  mv *.tar.gz scratch/
+  112  ls
+  113  mv fd-v10.2.0-x86_64-unknown-linux-gnu/ scratch/
+  114  ls
+  115  mkdir code
+  116  cd code
+  117  mkdir charlesbihis
+  118  ssh-keygen -t rsa
+  119  cat ~/.ssh/id_rsa.pub 
+  120  cd charlesbihis/
+  121  git clone git@github.com:charlesbihis/dotfiles.git
+  122  cd dotfiles/
+  123  lazygit
+  124  sudo dnf install go-toolset
+  125  go
+  126  sudo dnf install gcc
+  127  sudo dnf install node
+  128  sudo dnf update
+  129  curl -sL https://rpm.nodesource.com/setup_16.x | sudo bash -
+  130  curl -fsSL https://fnm.vercel.app/install | bash
+  131  source ~/.bashrc
+  132  nvim ~/.bashrc
+  133  source ~/.bashrc
+  134  fnm use --install-if-missing 20
+  135  node -v
+  136  npm -v
+  137  sudo dnf install python-pip
+  138  pip3 -V
+  139  pip -V
+  140  sudo dnf install python-devel
+  141  nvim ~/.bashrc
+  142  nvim ~/.config/nvim/
+  143  sudo dnf install luarock
+  144  sudo dnf install luarocks
+  145  sudo dnf install java
+  146  sudo dnf install cargo
+  147  sudo dnf install php
+  148  sudo dnf install ruby
+  149  sudo dnf install rubygem
+  150  sudo dnf install ruby-gem
+  151  nvim ~/.config/nvim/
+  152  npm install typescript ts-node
+  153  nvim ~/.config/nvim/
+  154  npm install -g tree-sitter-cli
+  155  npm install -g typescript ts-node
+  156  exit
+  157  cpanm -n Neovim::Ext
+  158  sudo dnf install perl
+  159  cpanm -n Neovim::Ext
+  160  sudo dnf install cpanm
+  161  sudo dnf install perl-app-cpanminus
+  162  sudo dnf install perl-App-cpanminus
+  163  cpanm -n Neovim::Ext
+  164  exit
+  165  nvim ~/.config/nvim/
+  166  sudo dnf install xclip
+  167  npm install -g neovim
+  168  pip install neovim
+  169  gem install neovim
+  170  nvim ~/.config/nvim/
+  171  exit
+  172  cpanm -n Neovim::Ext
+  173  sudo cpanm -n Neovim::Ext
+  174  exit
+  175  nvim ~/.config/nvim/
+  176  perl
+  177  perl -h
+  178  nvim ~/.config/nvim/
+  179  exit
+  180  pwd
+  181  sudo dnf install cssh
+  182  cd ~
+  183  cd code
+  184  ls
+  185  cd ~/scratch/
+  186  git clone https://github.com/duncs/clusterssh.git
+  187  ls
+  188  cd clusterssh/
+  189  ls
+  190  cd bin_PL/
+  191  ls
+  192  ./cssh
+  193  sudo dnf install clusterssh
+  194  sudo dnf install clusterssh --nobest
+  195  https://github.com/duncs/clusterssh.git
+  196  sudo dnf install dnf-plugins-core
+  197  sudo dnf install epel-release
+  198  sudo dnf config-manager --set-enabled powertools
+  199  sudo dnf update
+  200  sudo dnf install clusterssh
+  201  sudo dnf install clusterssh.noarch
+  202  sudo dnf install clusterssh.noarch --skip-broken --nobest
+  203  cssh
+  204  exit
+  205  nvim ~/.config/nvim/
+  206  cpanm -n Neovim::Ext
+  207  sudo cpanm -n Neovim::Ext
+  208  nvim ~/.config/nvim/
+  209  sudo dnf search lua
+  210  sudo dnf search lua-
+  211  sudo dnf search lua-rocks
+  212  sudo dnf search luarocks
+  213  nvim ~/.config/nvim/
+  214  exit
+  215  echo hello
+  216  exit
+  217  echo hello
+  218  exit
+  219  echo hello
+  220  cssh
+  221  clusterssh
+  222  which cssh
+  223  ls
+  224  cd scratch/
+  225  ls
+  226  cd ../
+  227  ls
+  228  mv perl5/ scratch/
+  229  ls
+  230  perl
+  231  perl -v
+  232  cd scratch/clusterssh/
+  233  ls
+  234  cd bin_PL/
+  235  ls
+  236  ./cssh
+  237  nvim ~/.config/nvim/
+  238  cpanm -n Neovim::Ext
+  239  sudo cpanm -n Neovim::Ext
+  240  nvim ~/.bashrc
+  241  nvim ~/.config/nvim/
+  242  pwd
+  243  cd ~/.config/nvim/
+  244  nvim .
+  245  tmux ls
+  246  nvim .
+  247  exit
+  248  vi ~/.tmux.conf
+  249  vim ~/.tmux.conf
+  250  cd ~/.config/nvim/
+  251  ls
+  252  nvim .
+  253  vim ~/.tmux.conf
+  254  exit
+  255  git status
+  256  git add .
+  257  git commit -m "Update README"
+  258  git config --global user.email "charles@whoischarles.com"
+  259  git config --global user.name "Charles Bihis"
+  260  git commit -m "Update README"
+  261  git push
+  262  history
+  263  history > blah
