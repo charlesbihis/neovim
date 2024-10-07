@@ -15,7 +15,6 @@ Steps summarized below.
 1. Install binary
 
 ```bash
-
 curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz
 sudo rm -rf /opt/nvim
 sudo tar -C /opt -xzf nvim-linux64.tar.gz
@@ -64,9 +63,9 @@ Had to do this once just to allow me to use as a git repo later, which turned ou
 
 ### Install Dependencies
 
-Intentionally installing dependencies after so you can inspect NeoVim/LazyVim health beforehand.
+Run LazyVim health check to see status of LazyVim and related plugins.
 
-1. Run the health check before.
+1. Run the health check before installing dependencies just to see what's broken.
 
 ```bash
 :checkhealth
@@ -78,9 +77,11 @@ Intentionally installing dependencies after so you can inspect NeoVim/LazyVim he
 # Fill with commands to run here.  Extract from history-to-install-deps file.
 ```
 
-3. Run the health check again.
+3. Run the health check again.  Very likely that the installation steps above have become stale
+and need updating.
 
 ```bash
 :checkhealth
 ```
-
+Very likely that the installation steps above have become stale
+and need updating.
